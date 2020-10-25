@@ -5,7 +5,9 @@ namespace simpleAPI.DataRepository
 {
     public class MockSimpleAPI : ISimpleAPIRepo
     {
-        
+        /*Note: Use this class only for testing purposes
+           while the database hasn't been set yet
+        */
         public IEnumerable<SimpleAPI> getAllData()
         {
             //hard-coded values for testing purposes
