@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -27,6 +28,7 @@ namespace simpleAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             /*
             Use this configuration for testing ONLY, before database is set
             services.AddScoped<ISimpleAPIRepo, MockSimpleAPI>(); //Register the Interface Repository and its Mock repository
@@ -37,6 +39,8 @@ namespace simpleAPI
                                                      (Configuration.GetConnectionString("SimpleAPIConnection")));
 
             services.AddScoped<ISimpleAPIRepo, SqlSimpleAPIRepo>(); //Register the Interface Repository and its SQL repository
+
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

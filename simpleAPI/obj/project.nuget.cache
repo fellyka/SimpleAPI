@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "OpqVz/Emdke2kqRG6mzqxAguV9kuJwYFa6wd8AHDrYEUHYgzK+m2gnigtQ+WYP3xsrmOfNjWY6clrG3CPNgHhg==",
+  "dgSpecHash": "GitkmBzTOud6+7kgBCaTOLYjrmkuk93ozRXYmT5aqSDxMAPOcyGGdbZuyi5eqW2FJt+3PcpuyM7TdBKOD5baSg==",
   "success": true,
   "projectFilePath": "/mnt/e9f26213-edb7-447f-943b-7432c68c2052/Projects/dotNetCoreSimpleAPI/simpleAPI/simpleAPI.csproj",
   "expectedPackageFiles": [
+    "/home/fellyka/.nuget/packages/automapper/10.1.0/automapper.10.1.0.nupkg.sha512",
+    "/home/fellyka/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.0/automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
     "/home/fellyka/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/home/fellyka/.nuget/packages/microsoft.bcl.hashcode/1.1.0/microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "/home/fellyka/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
@@ -69,7 +71,7 @@
     "/home/fellyka/.nuget/packages/system.objectmodel/4.3.0/system.objectmodel.4.3.0.nupkg.sha512",
     "/home/fellyka/.nuget/packages/system.private.datacontractserialization/4.3.0/system.private.datacontractserialization.4.3.0.nupkg.sha512",
     "/home/fellyka/.nuget/packages/system.reflection/4.3.0/system.reflection.4.3.0.nupkg.sha512",
-    "/home/fellyka/.nuget/packages/system.reflection.emit/4.3.0/system.reflection.emit.4.3.0.nupkg.sha512",
+    "/home/fellyka/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512",
     "/home/fellyka/.nuget/packages/system.reflection.emit.ilgeneration/4.3.0/system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
     "/home/fellyka/.nuget/packages/system.reflection.emit.lightweight/4.3.0/system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
     "/home/fellyka/.nuget/packages/system.reflection.extensions/4.3.0/system.reflection.extensions.4.3.0.nupkg.sha512",

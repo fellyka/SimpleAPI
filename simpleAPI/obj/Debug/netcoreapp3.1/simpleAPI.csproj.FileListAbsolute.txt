@@ -60,3 +60,5 @@
 /mnt/e9f26213-edb7-447f-943b-7432c68c2052/Projects/dotNetCoreSimpleAPI/simpleAPI/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll
 /mnt/e9f26213-edb7-447f-943b-7432c68c2052/Projects/dotNetCoreSimpleAPI/simpleAPI/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
 /mnt/e9f26213-edb7-447f-943b-7432c68c2052/Projects/dotNetCoreSimpleAPI/simpleAPI/obj/Debug/netcoreapp3.1/simpleAPI.csproj.CopyComplete
+/mnt/e9f26213-edb7-447f-943b-7432c68c2052/Projects/dotNetCoreSimpleAPI/simpleAPI/bin/Debug/netcoreapp3.1/AutoMapper.dll
+/mnt/e9f26213-edb7-447f-943b-7432c68c2052/Projects/dotNetCoreSimpleAPI/simpleAPI/bin/Debug/netcoreapp3.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

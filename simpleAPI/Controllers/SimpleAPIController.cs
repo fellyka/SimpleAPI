@@ -1,6 +1,8 @@
 using System.Collections.Generic;
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using simpleAPI.DataRepository;
+using simpleAPI.DataTransferObject;
 using simpleAPI.Models;
 
 namespace simpleAPI.Controllers
@@ -13,24 +15,30 @@ namespace simpleAPI.Controllers
     public class SimpleAPIController : ControllerBase
     {
       private readonly ISimpleAPIRepo repo;
-      public SimpleAPIController(ISimpleAPIRepo repo)
+      private readonly IMapper mapper;
+
+        public SimpleAPIController(ISimpleAPIRepo repo, IMapper mapper)
       {
           this.repo = repo;
+          this.mapper = mapper;
       }
         //GET api/SimpleAPI
         [HttpGet]
-        public ActionResult <IEnumerable<SimpleAPI>> GetAllInfo()
+        public ActionResult <IEnumerable<SimpleAPIReadDTO>> GetAllInfo()
         {
             var apiData = repo.getAllData();
-            return Ok(apiData);
+            return Ok(mapper.Map<IEnumerable<SimpleAPIReadDTO>>(apiData));
         }
 
         //GET api/SimpleAPI/{id}
         [HttpGet("{id}")]
-        public ActionResult<SimpleAPI> getInfoById(int id)
+        public ActionResult<SimpleAPIReadDTO> getInfoById(int id)
         {
             var apiData = repo.getDataById(id);
-            return Ok(apiData);
+            if (apiData == null)
+                return NotFound();
+            else
+                return Ok(mapper.Map<SimpleAPIReadDTO>(apiData));
         }
     }
 }

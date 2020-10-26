@@ -1,3 +1,4 @@
+using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
 namespace simpleAPI.Models
@@ -12,5 +13,8 @@ namespace simpleAPI.Models
         public string JobTitle{get;set;}
         [Required]
         public int YearJoined{get;set;}
+
+        [Column(TypeName = "decimal(8,2)")]
+        public decimal Salary{get;set;}
     }
 }
