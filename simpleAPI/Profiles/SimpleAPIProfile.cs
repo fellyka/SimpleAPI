@@ -9,7 +9,8 @@ namespace simpleAPI.Profiles
     {
         public SimpleAPIProfile()
         {
-            CreateMap<SimpleAPI,SimpleAPIReadDTO>(); // This maps the SimpleAPI class to the ReadDTO
+            CreateMap<SimpleAPI,SimpleAPIReadDTO>(); // This maps the SimpleAPI class(Source) to the ReadDTO(Target) --Read from the db
+            CreateMap<SimpleAPICreateDTO,SimpleAPI>(); //This maps the CreateDTO(source from API client[Postman/Fiddler...]) to the SimpleAPI --Write to the db
         }
     }
 }

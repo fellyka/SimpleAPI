@@ -31,7 +31,7 @@ namespace simpleAPI.Controllers
         }
 
         //GET api/SimpleAPI/{id}
-        [HttpGet("{id}")]
+        [HttpGet("{id}",Name="getInfoById")]
         public ActionResult<SimpleAPIReadDTO> getInfoById(int id)
         {
             var apiData = repo.getDataById(id);
@@ -40,5 +40,20 @@ namespace simpleAPI.Controllers
             else
                 return Ok(mapper.Map<SimpleAPIReadDTO>(apiData));
         }
+
+       //POST api/SimpleAPI
+       [HttpPost]
+       public ActionResult<SimpleAPICreateDTO> PostData(SimpleAPICreateDTO apiData)
+       {
+           var dataApi = mapper.Map<SimpleAPI>(apiData);
+           repo.CreateData(dataApi);
+           repo.SaveChanges(); //writes changes to the db
+
+           var apiDtoRead = mapper.Map<SimpleAPIReadDTO>(dataApi);
+
+          return CreatedAtRoute(nameof(getInfoById), new {Id = apiDtoRead.Id}, apiDtoRead);
+          
+       }
+
     }
 }

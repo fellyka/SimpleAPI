@@ -32,5 +32,15 @@ namespace simpleAPI.DataRepository
                 YearJoined = 2017
             };
         }//end of getDataById method
+
+        void ISimpleAPIRepo.CreateData(SimpleAPI api)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        bool ISimpleAPIRepo.SaveChanges()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
