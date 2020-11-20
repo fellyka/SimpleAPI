@@ -51,9 +51,28 @@ namespace simpleAPI.Controllers
 
            var apiDtoRead = mapper.Map<SimpleAPIReadDTO>(dataApi);
 
-          return CreatedAtRoute(nameof(getInfoById), new {Id = apiDtoRead.Id}, apiDtoRead);
-          
+          return CreatedAtRoute(nameof(getInfoById), new {Id = apiDtoRead.Id}, apiDtoRead);   
        }
 
+       //PUT api/SimpleAPI/{id}
+       [HttpPut]
+       public ActionResult UpdateCommand(int id, SimpleAPIUpdateDTO apiData)
+       {
+           var data = repo.getDataById(id);
+           if (data == null)
+              return NotFound();
+
+           else
+            {
+                mapper.Map(apiData, data);
+                repo.UpdateSimpleApi(data);
+                repo.SaveChanges();
+
+                return NoContent();
+            }
+       }
+
+
+      
     }
 }

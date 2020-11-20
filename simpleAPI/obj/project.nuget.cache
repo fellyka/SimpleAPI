@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GitkmBzTOud6+7kgBCaTOLYjrmkuk93ozRXYmT5aqSDxMAPOcyGGdbZuyi5eqW2FJt+3PcpuyM7TdBKOD5baSg==",
+  "dgSpecHash": "aPOOyghMB8dj+Ub8l77oXAqw83in4mU6ehipil++vEwqK74P+OhPPI9D23dXFg7eVZCpezcRPjBWdzS7gPHrwA==",
   "success": true,
   "projectFilePath": "/mnt/e9f26213-edb7-447f-943b-7432c68c2052/Projects/dotNetCoreSimpleAPI/simpleAPI/simpleAPI.csproj",
   "expectedPackageFiles": [
@@ -105,7 +105,9 @@
     "/home/fellyka/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
     "/home/fellyka/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
     "/home/fellyka/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "/home/fellyka/.nuget/packages/system.xml.xmlserializer/4.3.0/system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "/home/fellyka/.nuget/packages/system.xml.xmlserializer/4.3.0/system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "/home/fellyka/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.8/microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512",
+    "/home/fellyka/.nuget/packages/microsoft.netcore.app.host.linux-x64/3.1.9/microsoft.netcore.app.host.linux-x64.3.1.9.nupkg.sha512"
   ],
   "logs": []
 }

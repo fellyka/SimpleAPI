@@ -33,6 +33,11 @@ namespace simpleAPI.DataRepository
             };
         }//end of getDataById method
 
+        public void UpdateSimpleApi(SimpleAPI api)
+        {
+            throw new System.NotImplementedException();
+        }
+
         void ISimpleAPIRepo.CreateData(SimpleAPI api)
         {
             throw new System.NotImplementedException();

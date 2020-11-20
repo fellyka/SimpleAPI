@@ -35,5 +35,10 @@ namespace simpleAPI.DataRepository
             //If method returns a positive vlue, change is effective
             return (ctx.SaveChanges() >= 0);
         }
+
+        public void UpdateSimpleApi(SimpleAPI api)
+        {
+            //Noting
+        }
     }
 }

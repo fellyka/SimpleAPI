@@ -1,6 +1,5 @@
 /mnt/e9f26213-edb7-447f-943b-7432c68c2052/Projects/dotNetCoreSimpleAPI/simpleAPI/bin/Debug/netcoreapp3.1/appsettings.Development.json
 /mnt/e9f26213-edb7-447f-943b-7432c68c2052/Projects/dotNetCoreSimpleAPI/simpleAPI/bin/Debug/netcoreapp3.1/appsettings.json
-/mnt/e9f26213-edb7-447f-943b-7432c68c2052/Projects/dotNetCoreSimpleAPI/simpleAPI/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
 /mnt/e9f26213-edb7-447f-943b-7432c68c2052/Projects/dotNetCoreSimpleAPI/simpleAPI/bin/Debug/netcoreapp3.1/simpleAPI
 /mnt/e9f26213-edb7-447f-943b-7432c68c2052/Projects/dotNetCoreSimpleAPI/simpleAPI/bin/Debug/netcoreapp3.1/simpleAPI.deps.json
 /mnt/e9f26213-edb7-447f-943b-7432c68c2052/Projects/dotNetCoreSimpleAPI/simpleAPI/bin/Debug/netcoreapp3.1/simpleAPI.runtimeconfig.json
@@ -62,3 +61,4 @@
 /mnt/e9f26213-edb7-447f-943b-7432c68c2052/Projects/dotNetCoreSimpleAPI/simpleAPI/obj/Debug/netcoreapp3.1/simpleAPI.csproj.CopyComplete
 /mnt/e9f26213-edb7-447f-943b-7432c68c2052/Projects/dotNetCoreSimpleAPI/simpleAPI/bin/Debug/netcoreapp3.1/AutoMapper.dll
 /mnt/e9f26213-edb7-447f-943b-7432c68c2052/Projects/dotNetCoreSimpleAPI/simpleAPI/bin/Debug/netcoreapp3.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/mnt/e9f26213-edb7-447f-943b-7432c68c2052/Projects/dotNetCoreSimpleAPI/simpleAPI/obj/Debug/netcoreapp3.1/scopedcss/bundle/simpleAPI.styles.css
